@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'inter';
+}
+.heading-sec{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    background-color: #1e1a28;
+    padding-left: 60px;
+    padding-top: 30px;
+
+}
+.width-sec{
+    width: 44%;
+    float: left;
+ 
+}
+.coupons-heading{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+   
+}
+.head-con {
+   border-top-right-radius: 4px;
+   border-top-left-radius: 4px;
+    width: 100%;
+    float: left;
+    padding-bottom: 7PX;
+    padding-left: 50px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 1px 8px lightgrey;
+}
+.head-con-st{
+    width: 100%;
+    float: left;
+}
+.image-logo-sec {
+    width: 20%;
+    float: left;
+    padding-top: 33px;
+}
+.image-logo-wi {
+    width: 84px;
+    height: 82px;
+    border: 2px solid lightgrey;
+    border-radius: 61px;
+    overflow: hidden;
+}
+.image-logo-sec .logo {
+    width: 103px;
+}
+.cont-hd-fir {
+    width: 80%;
+    float: left;
+    padding-top: 49px;
+}
+.cont-hd-fir h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+.cont-hd-sec {
+    padding-top: 11px;
+    float: left;
+    width: 80%;
+}
+.cont-hd-sec h3 {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.my-para{
+    width: 100%;
+    float: left;
+}
+.new-div-class {
+    width: 65%;
+    float: left;
+}
+.Claim-vouc{
+    width: 35%;
+    float: left;
+}
+.Claim-vouc h5 {
+    float: left;
+    font-size: 16px;
+    text-align: right;
+    color:#ffa987;
+    padding-top: 15px;
+}
+.btn-show {
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    margin-left: 0px;
+    border: none;
+    background: inherit;
+    color: #2196f3;
+    font-size: 15px;
+}
+.new-show-content{
+    width: 50%;
+    float: left;
+    background-color: black;
+    height: 20px;
+}
+.new-client-con{
+    width: 100%;
+    float: left;
+ 
+}
+.new-client-con p{
+    font-size: 13px;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+.new-width-sec{
+    width: 44%;
+    float: left;
+    margin-left: 10px;
+}
+.btn-show svg {
+    padding-top: 5px;
+}
+.new-brand-image{
+    width:10%;
+    float: left;
+    color: white;
+}
+.new-brand-image h3{
+    color: white;
+}
+
+/* .par-con p {
+    width: 94%;
+    padding-top: 12px;
+    padding-left: 108px;
+    font-size: 13px;
+    color: black;
+    padding-bottom: 20px;
+}
+.voucher {
+    width: 15%;
+    float: left;
+    padding-top: 20px;
+  
+}
+.voucher h4{
+    font-size: 18px;
+    color: #ff8c63;
+    font-weight: 600;
+}
+.par-con {
+  border: none !important;
+  
+} */
+/* .icon-con svg{
+    padding-top: 7px;
+} */ 
+
+@media screen and (min-device-width: 360px) and (max-device-width: 768px) {
+    .new-width-sec{
+        display: none;
+    }
+    .width-sec {
+        width: 83%;
+        float: left;
+    }
+    .heading-sec {
+        width: 100%;
+        float: left;
+        /* height: 100vh; */
+        background-color: #1e1a28;
+        padding-left: 13px;
+        padding-right: 10px;
+        padding-top: 30px;
+    }
+    .image-logo-sec {
+        width: 30%;
+        
+    }
+    .head-con {
+        padding-left: 23px;
+    }
+    .cont-hd-fir h3 {
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .coupons-heading {
+        color: white;
+        font-size: 17px;
+        padding-left: 3px;
+        padding-bottom: 15px;
+    }
+    .head-con-st {
+        width: 100%;
+        float: left;
+    }
+    .cont-hd-fir {
+        width: 70%;
+        padding-left: 14px;
+        float: left;
+        padding-top: 49px;
+    }
+    .cont-hd-fir h3 {
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .cont-hd-sec {
+        padding-top: 9px;
+        float: left;
+        width: 70%;
+        padding-left: 14px;
+    }
+    .Claim-vouc {
+        width: 40%;
+        float: left;
+    }
+    .Claim-vouc h5 {
+        float: left;
+        font-size: 13px;
+        /* text-align: right; */
+        color: #ffa987;
+        padding-top: 15px;
+    }
+    .new-div-class {
+        width: 53%;
+        float: left;
+    }
+    .btn-show {
+        padding-left: 20px;
+        padding-right: 27px;
+        padding-top: 7px;
+        padding-bottom: 8px;
+        margin-left: 0px;
+        border: none;
+        background: inherit;
+        color: #2196f3;
+        font-size: 12px;
+    }
+    .Claim-vouc {
+        width: 43%;
+        float: left;
+    }
+    .Claim-vouc h5 {
+        float: left;
+        font-size: 13px;
+        /* text-align: right; */
+        color: #ffa987;
+        padding-top: 12px;
+    }
+    .cont-hd-sec h3 {
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .new-client-con p{
+        padding-bottom: 6px;
+    }
+    .image-logo-sec {
+        width: 30%;
+        float: left;
+        padding-top: 8px;
+    }
+    .cont-hd-fir {
+        width: 70%;
+        padding-left: 14px;
+        float: left;
+        padding-top: 16px;
+    }
+}

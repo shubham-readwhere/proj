@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Inter:wght@200;300;400;800&family=Open+Sans:wght@300;400&display=swap');
+    </style>
+</head>
+<body>
+    <div class="heading-sec">
+        <div class="width-sec">
+            <h1 class="coupons-heading">Popular Coupons</h1>
+            <div class="head-con">
+                <div class="head-con-st">
+                    <div class="image-logo-sec">
+                        <div class="image-logo-wi">
+                            <img  class="logo"src="./images/download (1).jpeg">
+                        </div>
+                    </div>
+                    <div class="cont-hd-fir">
+                        <h3>Make my trip </h3>
+                    </div>
+                    <div class="cont-hd-sec">
+                        <h3>Heading of make my trip</h3>
+                    </div>
+                </div>
+                <div class="my-para">
+                    <div class="new-div-class">
+                        <p onclick =" myFunction()" id="Btn" class="btn-show"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>Show Details
+                        </p>
+                    </div>
+                    <div class="Claim-vouc">
+                    <h5>Claim Voucher</h5>
+                    </div>
+                </div> 
+            </div>
+            <div class="new-client-con">
+                <p><span id="dots"></span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+            </div>
+        </div>
+         <div class="new-width-sec">
+            <h1 class="coupons-heading">Popular Coupons</h1>
+            <div class="head-con">
+                <div class="head-con-st">
+                    <div class="image-logo-sec">
+                        <div class="image-logo-wi">
+                            <img  class="logo"src="./images/download (1).jpeg">
+                        </div>
+                    </div>
+                    <div class="cont-hd-fir">
+                        <h3>Make my trip </h3>
+                    </div>
+                    <div class="cont-hd-sec">
+                        <h3>Heading of make my trip</h3>
+                    </div>
+                    
+                </div>
+                <div class="my-para">
+                    <div class="new-div-class">
+                        <p onclick="new_Function()" id="my-Btn-new" class="btn-show"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>Show Details</p>
+                </div>
+                    <div class="Claim-vouc">
+                    <h5>Claim Voucher</h5>
+                    </div>
+                </div> 
+            </div>
+            <div class="new-client-con">
+                <p><span id="my-dots"></span><span id="my-more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                
+            </div>
+            
+        </div>
+        <div class="new-brand-image">
+           
+        </div>
+    </div>
+
+</body>
+ <!-- <button onclick="myFunction()" id="myBtn" class="btn-show"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                         Show Details
+                    </button>  -->
+               
+           <!-- <p> <span id="dots"></span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+            </div>  -->
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("Btn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>Show Details`; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg> Hide Details`; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+    <script>
+        function new_Function() {
+          var newDots = document.getElementById("my-dots");
+          var newmoreText = document.getElementById("my-more");
+          var btnText = document.getElementById("my-Btn-new");
+        
+          if (newDots.style.display === "none") {
+            newDots.style.display = "inline";
+            btnText.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>Show Details`; 
+             newmoreText.style.display = "none";
+          } else {
+            newDots.style.display = "none";
+            btnText.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg> Hide Details`; 
+            newmoreText.style.display = "inline";
+          }
+        }
+        </script>
+</html>
